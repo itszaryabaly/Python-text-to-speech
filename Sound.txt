@@ -1,0 +1,9 @@
+import pyttsx3
+
+sound = pyttsx3.init("sapi5")
+voices = awaz.getProperty("voices")
+awaz.setProperty("voice",voices[1].id)
+
+def speak(text):
+    sound.say(text)
+    sound.runAndWait()
