@@ -1,4 +1,4 @@
-#You will need to install this module
+#First you will have to install this module
 import pyttsx3
 
 #Importing Voices
