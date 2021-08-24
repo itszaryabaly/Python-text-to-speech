@@ -1,9 +1,14 @@
+#You will need to install this module
 import pyttsx3
 
+#Importing Voices
 sound = pyttsx3.init("sapi5")
 voices = awaz.getProperty("voices")
 awaz.setProperty("voice",voices[1].id)
 
+#Function for making the bot speak
 def speak(text):
     sound.say(text)
     sound.runAndWait()
+    
+speak("Hello World!")
